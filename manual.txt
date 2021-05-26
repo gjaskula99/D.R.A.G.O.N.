@@ -1,0 +1,79 @@
+INSTRUKCJA POLOWA - Wersja 1.1.2
+
+Cel gry:
+Celem gry jest prowadzenie druzyny w zaleznosci od trybu gry: 12 miesiecy lub tak dlugo jak mozliwe.
+Gra konczy sie po 12 turach (w przypadku trybu rocznego) lub gdy gracz doprowadzi do porazki:
+-utraty plynnosci finansowej (srodki ponizej 100 PLN)
+-utraty wszystkich czlonkow druzyny
+-odwolania przez komisje rewizyjna
+-instruktor zostanie zameczony (sila ponizej 10%)
+
+Tryby gry:
+-Roczny: trwa przez 12 miesiecy (tur). Gra konczy sie po dwunastej turze, badz porazce gracza.
+-Nieskonczony: gra trwa tak dlugo az gracz nie odniesie porazki. Teoretycznie moze trwac 32 768 tur.
+
+Dane poczatkowe:
+Jako, ze druzyna jest pod twoja opieka mozesz wybrac jej numer oraz nazwe. Po wybraniu opcji gry wprowadz numer i zatwierdz ENTERem, nastepnie nazwe, a potem imie instruktora - kazdy wybor zatwierdzaj ENTERem.
+Oczywiscie imie druzynowego tez mozesz wybrac!
+
+Nawigacja:
+Operowanie interfejsem tekstowym odbywa sie z uzyciem wybrania odpowiedniej opcji w postaci liczby. Aby wybrac opcje nalezy podac jej numer i zatwierdzic ENTERem.
+W celu przejscia do kolejnej tury nalezy wybrac opcje 0 w trakcie symulacji.
+
+Wskazniki:
+-srodki - pieniadze ktorymi dysponuje druzyna. Uzywana do oplacania skladek i akcji.
+-czlonkowie - ilosc osob w druzynie.
+-zadowolenie - ogolne zadowolenie czlonkow druzyny.
+-wolne weekendy - ilosc akcji, ktore mozna zorganizowac w danej turze.
+-sila - poziom sil i determinacji instruktora do dzialania.
+-wspolczynnik - parametr przez, ktory przeliczane jest zmeczenie. Moze zostac zmniejszony przez awanse instruktora.
+
+Wskazniki o kolorze zoltym oznaczaja zagrozenie.
+Wskazniki o kolorze czerwonym oznaczaja, ze spelniaja warunek porazki.
+
+Skladki:
+W kazdym miesiacu nalezy oplacac sklady do hufca i ew. skladki zalegle.
+Fundusze pozyskiwane sa ze skladek w druzynie. Ich wysokosc mozna zmienic z menu Finansow.
+
+Aktywnosc:
+W kazdym miesiacu do zagospodarowania sa 4 weekendy. Zbiorka badz biwak zajmuje 1 weekend, a akcja HALIZ 4 weekendy.
+Niewykorzystanie weekendow spowoduje spadek zadowolenia, ale dodatkowy wzrost sily instruktora.
+W Lipcu i Sierpniu nie ma obowiazku prowadzenia zbiorek.
+
+Ewidencja:
+Przez opcje 4 mozesz uzyskac dostep do ewidencji druzyny. Znajdziesz tu dane czlonkow, ich stopnie oraz stopien frekwencji.
+Jesli przypadkiem trafi sie osoba, ktora nie chce uczestniczyc w zyciu druzyny mozesz ja usunac poprzez opcje 1, a nastepnie wybierajac delikwenta do odstrzalu.
+Aby uzyskac dostep do ewidencji trzeba zaakceptowac RODO.
+
+Ministerstwo:
+Rzad docenia Twoja dzialalnosc w zakresie wychowania mlodych ludzi. Z tego powodu masz mozliwosc zlozenia do Ministerstwa wniosku o dofinansowanie twojej druzyny.
+Wniosek mozesz zlozyc w Aplikacji Mobilnej MRHiL pod opcja 5.
+Dodatkowych informacji moze udzielic konsultant.
+
+Instruktor:
+Postac instruktora bedzie ulegac zmeczeniu w czasie organizacji zajec. Po kazdej turze sila instruktora bedzie stopniowo odnawiana.
+Instruktor moze brac udzial w kursach:
+-instruktorski - pozwala awansowac instruktora na kolejny poziom. Daje to dodatkowe punkty oraz zmniejsza wspolczynnik zmeczenia.
+-druzynowych - natychmiast przywraca 20 punktow Sily.
+
+Promocja:
+Tak, mozesz promowac swoja druzyne w internetach i innych srodkach masowego przekazu. Nalezy uzyc opcji 7 i wybrac preferowana opcje promocji.
+Kazda z nich wymaga przekazania dowolnej liczby funduszy, im wiecej tym wiecej osob moze zachecic.
+Kazda z opcji ma inna szanse powodzenia, jednak niektore daja szanse na dodatkowe korzysci.
+
+Zapisywanie gry:
+Zapis gry jest mozliwy w trakcie symulacji pod opcja 9. Zapisu nalezy dokonywac na poczatku tury.
+Plik zapisu nie zapisuje parametrow ewidencji, w tym frekwencji i zaleglych skladek oraz danych Ministerstwa RHiL.
+Wczytanie gry umozliwa pierwsze menu pod opcja 5.
+!UWAGA! Ze wzgledu na zlozonosc programu oraz potrzeby zapisu/odczytu licznych zmiennych opcja zapisu nie bedzie dalej rozwijana. W przypadku checi do ulepszenia tego mechanizmu prosze zapoznac sie z Licencja.
+
+Dla deweloperow - NIE UZYWAJ chyba ze BARDZO chcesz:
+Uruchomienie menu deweloperskiego jest mozliwe tylko po uruchomieniu trybu deweloperskiego w opcjach mechaniki. Wymaga ponownej kompilacji.
+Aby uzyskac dostep do menu nalezy uzyc opcji 115 w czasie symulacji.
+Opcja 116 pozwala wywolac zdarzenia losowe.
+
+Drogi uzytkowniku!
+Program ten zostal stworzony jako jedno z zadan na probe wedrownicza. Jego glownym celem jest symulacja prowadzenia druzyny harcerskiej.
+To w sumie tyle. Rezultaty ocen sam :)
+
+Czuwaj!
