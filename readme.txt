@@ -1,3 +1,9 @@
+D.R.A.G.O.N. to aplikacja stworzona w ramach próby na naramiennik wędrowniczy. Jej zadaniem jest symulacja działania i prowadzenia drużyny harcerskiej. Ma charakter prostej gry strategicznej z tekstowym interfejsem opierającej się na zarządzaniu zasobami.
+
+Program powstał w zamierzchłych czasach kiedy człowiek jeszcze nie znał się na programowaniu tak jak teraz. Innymi słowy - ten kod to bezład, ale działa znakomicie. Zostawiam tu dla potomności. Może kiedyś znajdę chwilę aby ogarnąć źródło (może).
+
+=====ORYGIANLNE README=====
+
 DRuzynowa Aplikacja GOspodarowania ewideNcja - D.R.A.G.O.N.
 Wersja: 1.1.4 - In Further Development (W Dalszym Rozwoju)
 Ostatnia aktualizacja - 20 kwietnia 2019
